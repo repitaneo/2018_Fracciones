@@ -7,31 +7,23 @@ public class Start {
 		// TODO Auto-generated method stub
 
 		
-		Fraccion unaFraccion = new Fraccion();
-		unaFraccion.setNumerador(3);
-		unaFraccion.setDenominador(8);
+		Fraccion unaFraccion = new Fraccion(3,7);
 		System.out.println(unaFraccion);
 		
-		unaFraccion.setNumerador(4);
+		Fraccion otraFraccion = new Fraccion(unaFraccion);
+		System.out.println(otraFraccion);
+		
+		
+		System.out.println("cambios__________");
+		otraFraccion.setNumerador(2000);
+		
+		
 		System.out.println(unaFraccion);
+		System.out.println(otraFraccion);
+
 		
-		
-		
-		
-		
-		/*
-		Fraccion unaSegundaFraccion = new Fraccion();
-		unaSegundaFraccion.setNumerador(1);
-		unaSegundaFraccion.setDenominador(2);
-		System.out.println(unaSegundaFraccion);
-		
-		
-		
-		Fraccion resultado;
-		resultado = unaSegundaFraccion.suma(unaFraccion);
-		System.out.println(resultado);
-		
-		*/
+
+
 	}
 
 }

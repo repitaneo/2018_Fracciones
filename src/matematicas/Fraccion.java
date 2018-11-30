@@ -12,6 +12,39 @@ public class Fraccion {
 	
 	
 	
+	
+	/*
+	 * 
+	 * CONSTRUCTORES
+	 * 
+	 */
+	public Fraccion() {
+		
+		numerador = 0;
+		denominador = 1;
+	}
+	
+	
+	
+	public Fraccion(int numerador,int denominador) {
+		
+		this.numerador = numerador;
+		this.denominador = denominador;
+	}
+	
+	
+	
+	public Fraccion(Fraccion aCopiar) {
+		
+		this.numerador = aCopiar.numerador;
+		this.denominador = aCopiar.denominador;
+	}	
+	
+	
+	
+	
+	
+	
 	/*
 	 * SETTERS Y GETTERS
 	 * 
