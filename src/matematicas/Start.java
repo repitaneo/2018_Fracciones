@@ -8,10 +8,18 @@ public class Start {
 
 		
 		Fraccion unaFraccion = new Fraccion();
-		unaFraccion.setNumerador(1);
+		unaFraccion.setNumerador(3);
 		unaFraccion.setDenominador(8);
 		System.out.println(unaFraccion);
 		
+		unaFraccion.setNumerador(4);
+		System.out.println(unaFraccion);
+		
+		
+		
+		
+		
+		/*
 		Fraccion unaSegundaFraccion = new Fraccion();
 		unaSegundaFraccion.setNumerador(1);
 		unaSegundaFraccion.setDenominador(2);
@@ -23,7 +31,7 @@ public class Start {
 		resultado = unaSegundaFraccion.suma(unaFraccion);
 		System.out.println(resultado);
 		
-		
+		*/
 	}
 
 }
